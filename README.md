@@ -5,3 +5,5 @@ AR.js is an efficient Augmented Reality solution on the Web. It runs 100% in you
 It runs on all mobile platforms: Android, iOS11 and Windows mobile. You can use it with your own phone.
 
 Hence i created this Asset using A-frame  and ar.js . Hiro - marker is the default marker used in the WEB-AR. 
+
+View the WEB-AR in https://syedn22.github.io/
