@@ -5,57 +5,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="index.css" />
-    <title>Portfolio</title>
+    <title>Syed's Portfolio</title>
   </head>
   <body>
-    <div class="titlecard">
+    <section class="titlecard">
       <p>Hi I am,</p>
       <p class="name">SYED MOHAMMED RAHIMUDDIN</p>
-    </div>
-    <section class="about">
-      <h2>About Me</h2>
-      <p>
-        I Love to create New things from Scratch. I have Done some Projects in
-        Web Development. A Self-Taught Programmer.
-      </p>
-      <img src="images/syed.jpg" alt="A Picture of syed " />
     </section>
-    <section class="projects">
+    <section class="row">
+      <main class="column">
+        <h2>About Me</h2>
+        <p>
+          I Love to create New things from Scratch. I have Done some Projects in
+          Web and Mobile App Developement. A Self-Taught Programmer.
+        </p>
+      </main>
+      <img id="me" src="images/syed.jpg" alt="A Picture of syed " />
+    </section>
+    <section>
       <h2>Projects</h2>
-      <article class="project">
-        <h3>1.DIGITAL STORE - JAVA & ORACLE PROJECT.</h3>
-        <p>
-          An E-commerce application for buyingcomputer based products. Developed
-          usingJava(Swings) -frontend and OracleDB -backend.
-        </p>
-        <a
-          href="https://github.com/syedn22/java-oracle-DigitalStore"
-          target="_blank"
-          ><img src="images/github-icon.png" alt="Github"
-        /></a>
-      </article>
-      <article class="project">
-        <h3>2. BLOG APP - FLASK & FIREBASE</h3>
-        <p>
-          Simple Blog app where people can post their own point of view on a
-          specific topic. Developed using markup and python framework.
-        </p>
-        <a href="https://github.com/syedn22/BlogWebsite-Flask-Firebase"
-          ><img src="images/github-icon.png" alt="Github"
-        /></a>
-      </article>
-      <article class="project">
-        <h3>3. CONVERTER APP - REACT NATIVE</h3>
-        <p>
-          The All-In-One Unit Converter App. ThisApp has a Simple and Beautiful
-          UI thateveryone can easily understand. It covers some basic categories
-          such as Distance,Time, Temperature, Base conversion And Currency
-          Exchange rates.
-        </p>
-        <a href="https://github.com/syedn22/unitconverter"
-          ><img src="images/github-icon.png" alt="Github"
-        /></a>
-      </article>
+      <div class="row">
+        <article class="project">
+          <h3>1.DIGITAL STORE - JAVA & ORACLE PROJECT.</h3>
+          <p>
+            An E-commerce application for buyingcomputer based products.
+            Developed usingJava(Swings) -frontend and OracleDB -backend.
+          </p>
+          <a
+            href="https://github.com/syedn22/java-oracle-DigitalStore"
+            target="_blank"
+            ><img src="images/github-icon.png" alt="Github"
+          /></a>
+        </article>
+        <article class="project">
+          <h3>2. BLOG APP - FLASK & FIREBASE</h3>
+          <p>
+            Simple Blog app where people can post their own point of view on a
+            specific topic. Developed using markup and python framework.
+          </p>
+          <a href="https://github.com/syedn22/BlogWebsite-Flask-Firebase"
+            ><img src="images/github-icon.png" alt="Github"
+          /></a>
+        </article>
+        <article class="project">
+          <h3>3. CONVERTER APP - REACT NATIVE</h3>
+          <p>
+            The All-In-One Unit Converter App. ThisApp has a Simple and
+            Beautiful UI thateveryone can easily understand. It covers some
+            basic categories such as Distance,Time, Temperature, Base conversion
+            And Currency Exchange rates.
+          </p>
+          <a href="https://github.com/syedn22/unitconverter"
+            ><img src="images/github-icon.png" alt="Github"
+          /></a>
+        </article>
+        <article class="project">
+          <h3>4. SUPERCHAT</h3>
+          <p>
+            A ChatRoom Created Using React JS and Firebase. Where Users can
+            login using their Google Id and Chat with the other people who have
+            logged into the Chat Room.
+          </p>
+          <a href="https://github.com/syedn22/superchat"
+            ><img src="images/github-icon.png" alt="Github"
+          /></a>
+        </article>
+        <article class="project">
+          <h3>5. CORONA DASHBOARD</h3>
+          <p>
+            A upto-date Dashboard which gives you the daily statistical updates
+            of corona in india. Created using React JS and Third-party Apis.
+          </p>
+          <a href="https://github.com/syedn22/Corona-Dashboard"
+            ><img src="images/github-icon.png" alt="Github"
+          /></a>
+        </article>
+      </div>
     </section>
+    <section class="row">
+      <main class="column">
+        <h2>Skills</h2>
+        <article>
+          <dl>
+            <dt>Programming Languages</dt>
+            <dd>C, C++, JavaScript, HTML, CSS.</dd>
+            <dt>DBMS</dt>
+            <dd>Oracle, MySql.</dd>
+            <dt>Frameworks & Libraries</dt>
+            <dd>React, ReactNative, Flask.</dd>
+            <dt>Cloud Services</dt>
+            <dd>FireBase, Heroku.</dd>
+          </dl>
+        </article>
+      </main>
+      <aside class="column">
+        <img src="images/C++.png" alt="C++" />
+        <img src="images/Css.png" alt="C++" />
+        <img src="images/firebase.png" alt="C++" />
+        <img src="images/heroku.png" alt="C++" />
+        <img src="images/html.png" alt="C++" />
+        <img src="images/javascript.png" alt="C++" />
+        <img src="images/python.png" alt="C++" />
+      </aside>
+    </section>
+    <section class="row">
+      <aside class="column"></aside>
+      <main class="column">
+        <h2>Areas Of Interest</h2>
+        <article>
+          <ul>
+            <li>Data Structure and Algorithms</li>
+            <li>Object Oriented Programming</li>
+            <li>Web Developement</li>
+            <li>Machine Learning</li>
+          </ul>
+        </article>
+      </main>
+    </section>
+    <footer class="footer">
+      <p>Designed By &copy; Syed</p>
+      <p>Contact Me</p>
+      <a href="mailto:syedmohammedn22@gmail.com">
+        <img class="icon" src="images/gmail-logo.png" alt="" />
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/syed-mohammed-219623172"
+        target="_blank"
+      >
+        <img class="icon" src="images/linkedin-logo.png" alt="" />
+      </a>
+      <a href="https://github.com/syedn22">
+        <img class="icon" src="images/github-icon.png" alt="" />
+      </a>
+    </footer>
   </body>
 </html>
