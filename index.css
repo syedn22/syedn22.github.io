@@ -94,9 +94,7 @@ footer {
     word-wrap: break-word;
   }
 
-  h2 {
-    font-size: 3rem;
-  }
+
 
   .titlecard {
     padding-top: 15rem;
@@ -128,7 +126,7 @@ footer {
 
   .project {
     width: 300px;
-    height: 370px;
+    height: 20em;
     background-color: dodgerblue;
     border: 5px solid royalblue;
     margin: 10px;
