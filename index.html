@@ -8,10 +8,10 @@
     <title>Syed's Portfolio</title>
   </head>
   <body>
-    <section class="titlecard">
+    <header class="titlecard">
       <p>Hi I am,</p>
       <h1 class="name">SYED MOHAMMED RAHIMUDDIN</h1>
-    </section>
+    </header>
 
     <section class="row">
       <aside class="column">
@@ -21,12 +21,18 @@
           Web and Mobile App Developement. A Self-Taught Programmer.
         </p>
       </aside>
-      <img id="me" src="images/doodle.png" alt="A Picture of syed " />
+      <div class="column">
+        <img
+          class="doodle centerimg"
+          src="images/doodle.png"
+          alt="A Picture of syed "
+        />
+      </div>
     </section>
 
     <section>
       <h2>Projects</h2>
-      <div class="row">
+      <div class="row projects">
         <article class="project">
           <h3>1.DIGITAL STORE - JAVA & ORACLE PROJECT.</h3>
           <p>
@@ -36,7 +42,7 @@
           <a
             href="https://github.com/syedn22/java-oracle-DigitalStore"
             target="_blank"
-            ><img src="images/github-icon.png" alt="Github"
+            ><img class="centerimg" src="images/github-icon.png" alt="Github"
           /></a>
         </article>
         <article class="project">
@@ -46,7 +52,7 @@
             specific topic. Developed using markup and python framework.
           </p>
           <a href="https://github.com/syedn22/BlogWebsite-Flask-Firebase"
-            ><img src="images/github-icon.png" alt="Github"
+            ><img class="centerimg" src="images/github-icon.png" alt="Github"
           /></a>
         </article>
         <article class="project">
@@ -58,7 +64,7 @@
             And Currency Exchange rates.
           </p>
           <a href="https://github.com/syedn22/unitconverter"
-            ><img src="images/github-icon.png" alt="Github"
+            ><img class="centerimg" src="images/github-icon.png" alt="Github"
           /></a>
         </article>
         <article class="project">
@@ -69,7 +75,7 @@
             logged into the Chat Room.
           </p>
           <a href="https://github.com/syedn22/superchat"
-            ><img src="images/github-icon.png" alt="Github"
+            ><img class="centerimg" src="images/github-icon.png" alt="Github"
           /></a>
         </article>
         <article class="project">
@@ -79,7 +85,7 @@
             of corona in india. Created using React JS and Third-party Apis.
           </p>
           <a href="https://github.com/syedn22/Corona-Dashboard"
-            ><img src="images/github-icon.png" alt="Github"
+            ><img class="centerimg" src="images/github-icon.png" alt="Github"
           /></a>
         </article>
       </div>
@@ -100,13 +106,12 @@
         </dl>
       </article>
       <aside class="column">
-        <img src="images/C++.png" alt="C++" />
-        <img src="images/Css.png" alt="C++" />
-        <img src="images/firebase.png" alt="C++" />
-        <img src="images/heroku.png" alt="C++" />
-        <img src="images/html.png" alt="C++" />
-        <img src="images/javascript.png" alt="C++" />
-        <img src="images/python.png" alt="C++" />
+        <img class="icon" src="images/icons8-c++-96.png" alt="C++" />
+        <img class="icon" src="images/firebase.png" alt="C++" />
+        <img class="icon" src="images/heroku.png" alt="C++" />
+        <img class="icon" src="images/icons8-html-5-96.png" alt="C++" />
+        <img class="icon" src="images/icons8-javascript-96.png" alt="C++" />
+        <img class="icon" src="images/react.png" alt="C++" />
       </aside>
     </section>
 
@@ -122,8 +127,9 @@
         </ul>
       </article>
     </section>
+
     <footer class="footer">
-      <p>Designed By &copy; Syed</p>
+      <p>Designed and Maintained By Syed</p>
       <p>Contact Me</p>
       <a href="mailto:syedmohammedn22@gmail.com">
         <img class="icon" src="images/gmail-logo.png" alt="" />
