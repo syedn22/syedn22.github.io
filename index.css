@@ -8,6 +8,28 @@ body {
   font-size: 1rem;
 }
 
+.typewriter {
+  font-weight: bold;
+  overflow: hidden;
+  border-right: 0.15em solid whitesmoke;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 5s steps(40, end) infinite;
+}
+
+.name {
+  font-size: 1.2rem;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 .titlecard {
   padding-top: 10rem;
   margin: 0;
@@ -100,6 +122,16 @@ footer {
     word-wrap: break-word;
   }
 
+  .name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    overflow: hidden;
+    border-right: 0.15em solid whitesmoke;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 5s steps(40, end) infinite;
+  }
+
   .titlecard {
     padding-top: 15rem;
     margin: 0;
@@ -107,8 +139,6 @@ footer {
     background: url(./images/night-sky.jpg);
     background-attachment: fixed;
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    /* background: linear-gradient(90deg, black 50%, dodgerblue 50%); */
     text-align: center;
     height: 100vh;
     width: 100%;
@@ -154,7 +184,6 @@ footer {
   }
   body section:nth-child(odd) {
     background-color: black;
-    /* background: linear-gradient(90deg, black 50%, dodgerblue 50%); */
     background: url(./images/night-sky.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -166,6 +195,16 @@ footer {
   body {
     color: #fef8e8;
     font-size: 1.5rem;
+  }
+
+  .name {
+    font-size: 3.5rem;
+    font-weight: bold;
+    overflow: hidden;
+    border-right: 0.15em solid whitesmoke;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 5s steps(40, end) infinite;
   }
 
   h1 {
