@@ -9,12 +9,14 @@ body {
 }
 
 .typewriter {
+  animation: typing 5s steps(40) infinite;
+  background-color: gold;
+  border-right: 0.1em solid orange;
+  color: black;
   font-weight: bold;
-  overflow: hidden;
-  border-right: 0.15em solid whitesmoke;
-  white-space: nowrap;
   margin: 0 auto;
-  animation: typing 5s steps(40, end) infinite;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .name {
@@ -31,25 +33,23 @@ body {
 }
 
 .titlecard {
-  padding-top: 10rem;
-  margin: 0;
-  background-color: black;
+  background-color: #222;
   background: url(./images/night-sky.jpg);
   background-attachment: fixed;
   background-size: cover;
-  text-align: center;
   height: 100vh;
+  padding-top: 10rem;
+  margin: 0;
+  text-align: center;
   width: 100%;
 }
 
-h1 {
-  display: inline;
-  font-size: 3rem;
-  word-wrap: break-word;
-}
-
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  background-color: gold;
+  color: #222;
+  border-radius: 1rem;
+  border: 5px solid darkgoldenrod;
 }
 
 h3 {
@@ -116,20 +116,21 @@ footer {
     font-size: 1.2rem;
   }
 
-  h1 {
-    display: inline;
-    font-size: 5rem;
-    word-wrap: break-word;
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 90%;
+    }
   }
 
   .name {
     font-size: 2.5rem;
-    font-weight: bold;
-    overflow: hidden;
-    border-right: 0.15em solid whitesmoke;
-    white-space: nowrap;
-    margin: 0 auto;
-    animation: typing 5s steps(40, end) infinite;
+  }
+
+  h2 {
+    font-size: 1.7rem;
   }
 
   .titlecard {
@@ -199,22 +200,10 @@ footer {
 
   .name {
     font-size: 3.5rem;
-    font-weight: bold;
-    overflow: hidden;
-    border-right: 0.15em solid whitesmoke;
-    white-space: nowrap;
-    margin: 0 auto;
-    animation: typing 5s steps(40, end) infinite;
-  }
-
-  h1 {
-    display: inline;
-    font-size: 5rem;
-    word-wrap: break-word;
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   h3 {
@@ -222,6 +211,14 @@ footer {
     margin: 1rem;
   }
 
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 90%;
+    }
+  }
   .project {
     width: 400px;
     height: 500px;
@@ -239,5 +236,16 @@ footer {
 
   .project img {
     width: 70px;
+  }
+}
+
+@media Screen and (min-width: 1440px) {
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 65%;
+    }
   }
 }
